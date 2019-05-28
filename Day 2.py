@@ -16,6 +16,7 @@ import numpy as np
 array = np.array([1, 2, 3, 4, 5])
 
 new_array = []
+
 for i in array:
     new_array.append(np.prod(array) / i)
 
