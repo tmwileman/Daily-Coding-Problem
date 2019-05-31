@@ -26,5 +26,4 @@ new_list = []
 for i in list:
     if i >= 0:
         new_list.append(i + 1)
-            
-print(min(new_list))
+    print(min(new_list))
